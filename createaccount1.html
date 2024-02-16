@@ -1,0 +1,99 @@
+<!Doctype>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-decoration-width,initial-scale=1.0">
+		<meta name="description" content="Engr. Mustapha's website">
+		<meta name="keywords" content="login,students">
+		<title>Create account</title>
+		<link rel="stylesheet" href="css2.css">
+		<style>
+			footer{
+				position: fixed;
+				bottom: 0%;
+				width: 100%;
+			}
+			form{
+				position: absolute;
+				top: 58%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				background-color: rgb(0,150,200);
+				width: 280px;
+				height: 430px;
+				padding: 10px;
+				text-align: center;
+				border-radius: 5px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<table>
+				<tr>
+					<th rowspan="2"><img src="logo.png" alt="eda logo"></th>
+					<th><h1>E.M Academy</h1></th>
+						<tr>
+							<td><i>The best of the best...</i></td>
+						</tr>
+				</tr>
+				
+			</table>
+			<nav>
+				<a href="E.M academy.html">Home</a>
+				<a href="createaccount1.html">Create Account</a>
+				<a href="login1.html">Login</a>
+				
+			</nav>
+		</header>
+		
+		<main>
+			<h2>To create your student account, fill the form below with the correct information in the spaces provided</h2>
+			<form action="success1.html" method="GET">
+				<div>
+					<label>Name:</label></br>
+					<input type="name" placeholder="e.g Asofa Olubimpe Ajao" required></br>
+				</div>
+				<div>
+					<label>Matric no:</label></br>
+					<input type="digits" placeholder="e.g 111111" required></br>
+				</div>
+				<div>
+					<label>Date of Birth:</label></br>
+					<input type="date" required></br>
+				<div>
+					<label>Gender:</label></br>
+					<input list="gender" required></br>
+						<datalist id="gender">
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+						</datalist>
+				</div>
+				<div>
+					<label>Email:</label></br>
+					<input type="mail" placeholder="e.g oasofa111@stu.eda.ng" required></br>
+				</div>
+				<div>
+					<label>Password:</label></br>
+					<input type="password" required></br>
+				</div>
+				<div>
+					<label>Bio:</label></br>
+					<textarea rows="10" cols="30" required></textarea></br>
+				</div>
+				<div>
+					<input type="submit">
+				</div>
+			
+			</form>
+		</main>
+		
+		
+		<footer>
+			<p>&copyE.M academy,2022</p>
+		</footer>
+	</body>
+	
+	
+</html>
